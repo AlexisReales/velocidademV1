@@ -1,0 +1,84 @@
+header{
+    background-color: rgb(238, 189, 98);
+    height: 60px;
+    color: rgb(247, 89, 89);
+}
+h1{
+    padding: 10px;
+}
+nav{
+    background-color: rgb(220, 236, 236);
+    margin: center;
+    padding: 0.5px;
+    height: 40px;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+li a:hover{
+    background-color: rgb(188, 206, 206);
+}
+ul li{
+    padding: -0px;
+    list-style: none;
+}
+nav ul{
+    padding: 0;
+    display: flex;
+}
+.container input, textarea, div{
+    margin: 3px;
+}
+textarea{
+    border: 2px solid orange;
+}
+.container{
+    border: 3px solid orange;
+    border-radius: 30px;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+}
+.container input{
+    padding: 3px;
+    margin: 3px;
+    border: 2px solid orange;
+    border-radius: 30px;
+}
+h4{
+    background-color: rgb(238, 189, 98);
+    color: rgb(247, 89, 89);
+    border-radius: 5px;
+    padding: 10px;
+}
+.resultadog{
+    border: 2px solid orange;
+    border-radius: 30px;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+}
+.calculo input{
+    width: 290px;
+    padding: 3px;
+}
+button{
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 30px;
+    color: rgb(247, 89, 89);
+    padding: 3px;
+}
+.resultado input{
+    width: 290px;
+    background-color: orange;
+    padding: 3px;
+}
+.calculo input:hover{
+    background-color: gainsboro;
+}

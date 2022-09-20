@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cálculo da Velocidade Média</title>
+</head>
+<body>
+
+    <header>
+        <h1>
+            Velocidade Média
+        </h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>   
+                <a href="index.html">Home</a>
+            </li>
+            <li> 
+                <a href="Sobre.html">Sobre</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <h4 class="tituloc">
+           <b>Cálculo</b>
+        </h4>
+
+        <div class="calculo">
+            <input type="number" placeholder="Informe o valor do deslocamento" id="x"> <br>
+            <input type="number" placeholder="Informe o intervalo de tempo" id="y">
+        </div>
+
+        <div class="botoes">
+            <button id="calcular" onclick="calcular()">Calcular</button>
+            <button id="limpar" onclick="limpar()">Limpar</button>
+        </div>
+
+        <div class="resultado">
+            <input type="number" readonly id="z">
+            <textarea id="velocidadem" rows="10"></textarea>
+        </div>
+        
+    </div>
+    
+    <div class="resultadog">
+        <h4 class="resultadogg">
+            Resultados
+        </h4>
+        <textarea id="velocidadem" rows="0" readonly></textarea>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
